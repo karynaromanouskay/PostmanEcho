@@ -1,1 +1,2 @@
 # PostmanEcho
+[![Java CI with Gradle](https://github.com/karynaromanouskay/PostmanEcho/actions/workflows/gradle.yml/badge.svg)](https://github.com/karynaromanouskay/PostmanEcho/actions/workflows/gradle.yml)
