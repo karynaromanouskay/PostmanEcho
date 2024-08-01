@@ -1,5 +1,4 @@
 package ru.netology.aqa;
-
 import org.junit.jupiter.api.Test;
 
 import static io.restassured.RestAssured.given;
@@ -9,7 +8,6 @@ public class PostmanEchoTest {
     @Test
     void returnSendData() {
 
-        String text = "Hi";
         given()
                 .baseUri("http://postman-echo.com")
                 .body("some data") // отправляемые данные (заголовки и query можно выставлять аналогично)
